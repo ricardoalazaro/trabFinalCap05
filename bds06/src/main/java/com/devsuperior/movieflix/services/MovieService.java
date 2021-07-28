@@ -22,6 +22,8 @@ public class MovieService {
 
 	@Autowired
 	private MovieRepository repository;
+	
+	@Autowired
 	private GenreRepository genreRepository;
 	
 	
